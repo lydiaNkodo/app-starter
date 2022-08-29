@@ -1,0 +1,134 @@
+img {
+  width: 80%;
+  height: 80%;
+}
+
+.welcome {
+  background-color: black;
+  width: fit-content;
+  margin: auto;
+  color: white;
+  padding: 50px;
+}
+
+.welcome > h2 {
+  font-size: 20px;
+}
+
+.line-1{
+  width: 35px;
+  margin: auto;
+  margin-bottom: 20px;
+  
+}
+
+.img-container{
+  text-align:center;
+}
+.image1 {
+  height: 300px;
+  width: 300px;
+}
+
+.image2 {
+  margin-bottom: 40px;
+}
+
+
+.image-container {
+  width: fit-content;
+  margin: auto;
+}
+
+
+.lorem15 {
+  font-size: 16px;
+  color: rgb(90, 55, 172);
+}
+
+.lorem20 {
+  font-size: 16px;
+}
+
+.loremtext2{
+  color: rgb(90, 55, 172);
+}
+
+@media screen and (max-width: 768px) {
+  .image2 {
+    margin-bottom: 40px;
+  }
+
+  .lorem-contain {
+    position: absolute;
+    width: 100% !important;
+  }
+}
+
+
+.lorem29 .btn1 {
+  border-radius: 100px;
+  font-size: 100%;
+  width: 20%;
+}
+
+@media (max-width: 779px) {
+  .lorem29 .btn1 {
+    width: 80%;
+  }
+}
+
+@media (max-width: 780px) {
+  .box {
+    margin-bottom: 20px;
+  }
+}
+
+.app-screenshots{
+  background-color: black;
+}
+
+.app-pricing{
+  min-height: 100vh;
+  background-color: rgb(84, 12, 151);
+}
+
+.box{
+  gap: 2%;
+}
+
+.pricing-card h2{
+  text-align: center;
+  padding: 70px;
+  font-size: 18px;
+  color: rgb(204, 194, 194);
+  
+}
+
+.pricing-card h2::after {
+  display: block;
+}
+
+.box button {
+  border-radius: 20px;
+  position: relative;
+  top: 4rem;
+  width: 80%;
+}
+
+@media (max-width: 770px) {
+  .box {
+    display: block;
+    padding-bottom: 10px;
+  }
+  
+  .middle {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 995px) {
+  .box button {
+    padding: 2%;
+    width: 100%;
+  }
+}
